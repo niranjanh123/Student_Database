@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0;
+    padding: 0;
+    /* display:flex; */
+    justify-content:center;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+}
+.contain{
+    width: 20%;
+}
+.logodaya{
+    position: relative;
+    top: 40px;
+    left:40px ;
+}
+.titledaya{
+    font-size: 17px;
+    float: right;
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    width: 50%;
+    text-align: center;
+}
+.socialgroup 
+{
+    float:right;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+.header{
+    clear: both;
+    position: relative;
+    background: black;
+    opacity: 0.7;
+  /* text-decoration: none;  */
+    width: 100%;
+    text-align: center;
+    height: 60px;
+}
+ .header ul li {
+    position: relative;
+    top: 18px;
+    left: 100px;
+    text-decoration: none; 
+    color: #fff;
+    opacity:0.6;
+    font-weight: 700;
+    float: left;
+    /* background: black; */
+    list-style: none;
+}
+.header ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-weight:700;
+    margin-left: 10px;
+    margin-right: 70px;   
+}
+.header ul li a:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.postal{
+    margin-left: 18%;
+}
+.keycontact{
+    margin-left: 18%;
+}
+.slider{
+    float: right;
+   margin-right: 5%;
+    margin-top: 100px;
+    height: 280px;
+}
+.main_body{
+    margin: 2%;
+
+}
+.vision_mission{
+    width: 60%;
+}
+.vision_mission h1{
+    color:#3063A5;
+}
+.vision_mission h2{
+    color:#3063A5;
+}
+.vision{
+    width: 60%;
+}
+.vision h1{
+    color:#3063A5;
+}
+.mission{
+    width: 60%;
+}
+.mission h1{
+    color:#3063A5;
+}
+.values{
+    width: 60%;
+}
+.values h1{
+    color:#3063A5;
+}
+.dpt{
+   padding: 5%;
+   clear: both;
+}
+.dpt h2{
+    color:#3063A5;
+}
+.ABOUT_SLIDER{
+    float: right;
+    margin-right: 5%;
+}

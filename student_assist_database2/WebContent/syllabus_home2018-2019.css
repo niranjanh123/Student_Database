@@ -1,0 +1,149 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0;
+    padding: 0;
+    /* display:flex; */
+    justify-content:center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    /* background-color: #D3D3D3; */
+    width: 100%;
+}
+.contain{
+    width: 20%;
+}
+h2{
+     font-family: 'Roboto Slab', serif; 
+}
+.logodaya{
+    position: absolute;
+    top: 40px;
+    left:40px ;
+    
+}
+.titledaya2{
+    font-size: 17px;
+    float: right;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    width: 40%;
+    text-align: center;
+}
+.socialgroup 
+{
+    float:right;
+    position: absolute;;
+    right: 40px;
+    top: 60px;
+
+}
+.cards_main{
+    background-color:#f1f1f1 ;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.header1{
+    position: relative;
+    margin-top: 10%;
+    clear: both;
+    background: black;
+    opacity: 0.7;
+   /* text-decoration: none;  */
+   width: 100%;
+   text-align: center;
+   height: 60px;
+}
+.header1 ul{
+    background: black;
+    opacity: 0.6;
+    /* text-decoration: none;  */
+}
+ .header1 ul li {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    text-decoration: none; 
+    color:#fff;
+    float: left;
+    font-weight:700;
+    /* background: black; */
+    font-size: 25px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif; 
+}
+
+
+.header1 ul li:hover{
+   color: chocolate;
+   
+} 
+.header1 ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+.cards_syllabus{
+    width:25%;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+}
+.image_syllabus img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title_syllabus{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc_syllabus{
+    text-align: center;
+}
+button{
+    block-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.322);
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px; 
+    font-size: 20px;
+    color: black;
+}
+
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+button a:hover{
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}

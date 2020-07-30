@@ -1,0 +1,143 @@
+@charset "ISO-8859-1";
+
+body{
+    margin: 0;
+    padding: 0;
+    /* display:flex; */
+    justify-content:center;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+.contain{
+    height: 20%;
+}
+.logodaya{
+   position: relative;
+    top: 40px;
+    left:40px ;
+}
+.titledaya{
+    font-size: 17px;
+    float: right;
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roborto Slab',serif;
+}
+.socialgroup 
+{
+    float:right;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+
+}
+.header{
+    position: absolute;
+    top: 150px; 
+    clear: both;
+    background: black;
+  /* text-decoration: none;  */
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    opacity: 0.7;
+}
+.header ul{
+    background: black;
+    opacity: 0.6;
+    /* text-decoration: none;  */
+    
+}
+ .header ul li {
+    position: relative;
+    top: 5px;
+    left: 20px;
+    text-decoration: none; 
+    color:#fff;
+    float: left;
+    font-weight: 700;
+    /* background: black; */
+    font-size: 20px;
+    text-align: center;
+    margin-left: 80px;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+
+}
+.header ul li:hover{
+   color: chocolate;
+   
+} 
+a
+	  {
+	  text-decoration:none;
+      color: white;
+      text-align: center;
+      
+      }
+a:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.postal{
+    margin-top: 4%;
+    width: 55%;
+    font-size: 180%;
+    float: left;
+    background-color: white;
+}
+.postal p{
+   margin-left: 4%;
+   margin-top: 340px;
+}
+.keycontact{
+  float: left;
+    background-color: white;
+    width: 55%;
+}
+.keycontact table{
+   width: 50%;
+   margin-left: 20%;
+   margin-top: 340px;
+   border-color:"black"
+}
+.keycontact table tr th{
+    font-size: 180%;
+    color: white;
+    background-color: #184771; padding: 20px;
+}
+.keycontact table tr td{
+    font-size: 150%;
+    background-color: #184771; padding: 20px;
+}
+.slider{
+        margin-left: 40px;
+        width: 40%;
+        margin-top: 300px;
+        margin-right: 5px;
+        float: right;
+        background-color: white;
+        text-align: center;
+
+}
+.sliderkey{
+   background-color: white;
+    float: left;
+    width: 40%;
+    margin-top: 350px;
+    text-align: center;
+    position: relative;
+}
+.sliderpostal{
+    background-color: white;
+     float: left;
+     width: 40%;
+     margin-top: 350px;
+     text-align: center;
+     position: relative;
+ }

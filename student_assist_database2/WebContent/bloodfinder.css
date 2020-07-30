@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+.body{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+}
+.bloodlist{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.bloodlist .select_blood .form select{
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    background: #2c3e50;
+    border: 0 !important;
+    width: 20em;
+    height: 2em;
+    border-radius: 0.25;
+    font-size: 1em;
+    letter-spacing:0.8em;
+    cursor: pointer;
+}
+.input[type=submit] {
+	
+    width: 10em;  height: 2em;
+}
+.select_blood .form select{
+	color : WHITE;
+}

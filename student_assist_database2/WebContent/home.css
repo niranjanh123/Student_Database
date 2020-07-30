@@ -1,0 +1,286 @@
+@charset "ISO-8859-1";
+*{
+    list-style-type:none;
+  }
+header,nav,aside,section,footer,article
+{
+   display:block;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+.top{
+    padding: 25px;
+    background-color:#fff;
+    height:130px;
+
+}
+.logo1
+{
+height:100px;
+width:100px;
+float:left;
+position: relative;
+top:20px;
+left:10px;
+}
+.name{
+	position:relative;
+    float: left;
+    text-align: center;
+    text-decoration-style: solid;
+    font-size: 25px;
+    width: 50%;
+    margin-top: 2%;
+    font-family: 'Roboto Slab', serif;
+}
+.social{
+    float:right;
+    padding-top: 1%;
+}
+.container{
+    width:1200px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+.clear{
+    clear: both;
+}
+.cl{
+    clear: both;
+}
+.topnav
+{
+ position:relative;
+ top:25px;
+ padding-top: 1.5%;
+ float: left;
+ width:100%;
+ /* margin-left: 4.3%; */
+ line-height: 100%;
+ text-align: center;
+ background-color: black;
+ opacity: 0.7;
+ color: white;
+ 
+ /* background-color: cadetblue; */
+}
+.topnav ul li
+{
+ float: left;
+ /* padding-top: 20px; */
+ /* padding-left: 20px; */
+ padding-bottom: 20px;
+ padding-right: 85px;
+ text-align: center;
+ 
+}
+.li1{
+    margin-left: 80px;
+}
+a
+	  {
+	  
+	  text-decoration:none;
+      color: #fff;
+      opacity:0.6;
+      font-size:15px;
+      margin-left:10px;
+      text-align: center;
+      font-family: 'Roboto Slab', serif;
+      font-weight:700;
+      
+      }
+a:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.cl2{
+          clear: both;
+      }
+.gap1{
+    clear: both;
+}
+.panelcontainer{
+    background-color: lavender;
+    opacity: 0.9;
+}
+.panel{
+    width: 22%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 54px;
+    padding: 15px;
+    margin-left:17%;
+    background:black;
+}
+.DSI img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 200px;
+}
+.des1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-style: normal;
+    color: blanchedalmond;
+}
+.button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 110px;
+  }
+  .button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+.footer{
+
+    background-color:white;
+    text-align: center;
+    height: 200px;
+}
+
+.imagefooter{
+    margin:10px;
+    margin-top: 3%;
+    float: left;
+}
+.footlink{
+    color: black;
+     float: right; 
+     border: 2px solid black;
+    margin-right: 70%;
+     margin-top: 8%; 
+    
+}
+
+.footlink ul li a{
+    color: #000;
+    text-align: center;
+    
+}
+.footlink ul li a:hover{
+    color: brown;
+}
+
+.footlink1{
+    color: black;
+    float: right; 
+  
+    margin-right: 50%; 
+    border: 2px solid black;
+    
+}
+
+.footlink1 ul li a{
+    color: #000;
+    text-align: center;
+    
+}
+.footlink1 ul li a:hover{
+    color: brown;
+}
+.bott{
+    background-color: white;
+    text-align: center;
+}
+.facilities{
+    width: 100%;
+    height:350px ;
+    background-color:lavender;
+    opacity: 0.9;
+}
+.facpanal{
+     width:15% ;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black; 
+    border-radius: 5px;
+     /* margin: 54px;  */
+    padding: 15px; 
+    margin-left:25%;
+    background:white;
+    margin-bottom:20px;
+    margin-top: 30px;
+    
+} 
+.fac{
+    color:black;
+}
+.facpanal1{
+     /* display: inline-block;  */
+    /* margin: 54px;  */
+    padding: 15px; 
+    margin-left:10%;
+    margin-right: 30%;
+    /* background:white; */
+    margin-top:40px;
+    float: right; 
+ } 
+.facpanal1 ul li{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color:black ;
+}
+.facpanal1 ul{
+    padding-bottom: 20px
+}
+.DSatm img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 100px;
+}
+.button1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 45px;
+  }
+  .button1:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .button2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 110px;
+  }
+  .button2:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .descri{
+      font-style: normal;
+      color:black;
+      text-align: center;
+      padding-top: 10px;
+  }
+ .desvideo{
+     margin-top: 10px;
+ }
